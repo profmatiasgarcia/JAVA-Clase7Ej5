@@ -337,7 +337,7 @@ public class testFrame extends javax.swing.JFrame {
 
     private void btnModificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModificarActionPerformed
         Persona persona = new Persona();
-        persona.setIdpersona(Integer.parseInt(searchIdTxt.getText()));
+        persona.setIdpersona(Integer.parseInt(resultTxt.getText()));
         persona.setNombre(nombreTxt1.getText());
         persona.setApellido(apellidoTxt1.getText());
         persona.setDni(dniTxt1.getText());
@@ -354,7 +354,7 @@ public class testFrame extends javax.swing.JFrame {
     private void btnEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarActionPerformed
         Persona persona = new Persona();
 
-        persona.setIdpersona(Integer.parseInt(searchIdTxt.getText()));
+        persona.setIdpersona(Integer.parseInt(resultTxt.getText()));
         persona.setApellido("");
         persona.setNombre("");
         persona.setDni("");
